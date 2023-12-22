@@ -1,8 +1,7 @@
 val = {
-    "age" : 21,
-    "age" : 29,
-    "age" : 14,
-    "age" : 19
+   "name" : "Samir", "age" : 19,
+   "name" : "Ulvi", 'age' : 14,
+     
 }
 
 
