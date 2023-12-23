@@ -11,3 +11,6 @@ def factorial(f):
 
 print(factorial(5))
 
+
+# s = ['Men Python dilini orgenirem'] Bu listden boşluğu sil
+
