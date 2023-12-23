@@ -16,9 +16,17 @@ val = {
 
 # def ile fire ve dusmen funksiyasi yaz her fire istifade edende dusmenin cani azalsin
 
+class Soldier:
+    health = 100
+    power = 20
+
+    def fire(self, other):
+        other.health = other.health - self.power
 
 
+soldier = Soldier()
+soldier2 = Soldier()
 
-
-
-# lambda ile factorial yaz
+soldier.fire(soldier2)
+print(soldier2.health)
+# lambda ile factorial yaz``
