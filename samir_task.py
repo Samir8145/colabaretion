@@ -1,16 +1,3 @@
-val = {
-   "name" : "Samir", "age" : 19,
-   "name" : "Ulvi", 'age' : 14,
-
-}
-
-
-
-
-# bu dictionaryni sort ele
-
-
-
 
 
 
@@ -33,3 +20,7 @@ soldier.fire(soldier2)
 
 f = lambda x: 1 if x == 0 else x * f(x-1)
 print(f(5))
+
+
+
+# bir geri sayim programi hazirla. programa bir deyer ver ve o deyerden 0-a qeder say
