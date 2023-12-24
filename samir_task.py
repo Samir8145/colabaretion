@@ -24,3 +24,12 @@ print(f(5))
 
 
 # bir geri sayim programi hazirla. programa bir deyer ver ve o deyerden 0-a qeder say
+
+import time
+
+num = int(input())
+
+for i in range(num, 0, -1):
+    time.sleep(1)
+    print(i,"Saniye")
+    
